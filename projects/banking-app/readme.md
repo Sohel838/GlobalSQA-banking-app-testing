@@ -43,25 +43,6 @@ The goal of this project is to showcase the **complete Software Testing Life Cyc
 
 ---
 
-## 👩‍💻 Project Structure
-banking-app/
-│
-├── manual-testing/
-│ ├── test-plan.md
-│ ├── test-cases.md
-│ ├── rtm.md
-│ ├── bug-report-template.md
-│ ├── exploratory-notes.md
-│
-└── automation-testing/
-├── LoginTest.java
-├── FundTransferTest.java
-├── pom.xml
-├── testng.xml
-
-
----
-
 ## 👨‍💻 Author
 **Sohel Patel**  
 *Manual & Automation Test Engineer*
