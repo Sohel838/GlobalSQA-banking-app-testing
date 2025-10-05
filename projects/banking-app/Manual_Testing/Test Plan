@@ -1,0 +1,124 @@
+# 🏦 Test Plan – GlobalSQA Banking Web Application
+
+## 1️⃣ Project Overview
+The GlobalSQA Banking Web Application simulates core banking operations such as customer login, deposits, withdrawals, and transaction management.  
+The goal of this testing effort is to ensure the system functions correctly, meets business requirements, and provides a smooth user experience.
+
+---
+
+## 2️⃣ Objective
+- Verify that all functionalities of the banking system work as expected.
+- Validate the system’s stability, usability, and performance.
+- Identify and report defects before release.
+- Ensure all requirements are traceable through RTM.
+
+---
+
+## 3️⃣ Scope of Testing
+
+### ✅ **In Scope**
+- Functional Testing (Customer, Manager modules)
+- UI and Usability Testing
+- Regression Testing
+- Smoke/Sanity Testing
+- Cross-Browser Compatibility
+
+### ❌ **Out of Scope**
+- Performance and Load Testing
+- Security Penetration Testing
+- Backend Database Validation (since no DB access)
+
+---
+
+## 4️⃣ Test Modules
+| Module Name | Description |
+|--------------|-------------|
+| Customer Login | Verify user login functionality |
+| Manager Login | Verify manager functionalities like Add Customer, Open Account |
+| Deposit | Verify deposit process and balance updates |
+| Withdraw | Verify withdrawal and error handling |
+| Transaction | Check transaction history displays correctly |
+| Logout | Verify proper session logout |
+
+---
+
+## 5️⃣ Test Approach
+
+| Type | Description |
+|------|--------------|
+| **Manual Testing** | Execute test cases manually for all modules |
+| **Automation Testing** | Use Selenium WebDriver (Java/Python) for core user flows |
+| **Defect Reporting** | Log defects in Bug Report Template (Bug_Report_Template.md) |
+| **Test Management** | Test cases and execution tracked using Excel or Google Sheets |
+
+---
+
+## 6️⃣ Test Deliverables
+- Test Plan Document  
+- Test Scenarios  
+- Test Cases Document  
+- RTM (Requirement Traceability Matrix)  
+- Bug Report  
+- Test Execution Report  
+
+---
+
+## 7️⃣ Test Environment
+| Component | Details |
+|------------|----------|
+| Application URL | [https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login](https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login) |
+| Browser | Chrome, Firefox |
+| OS | Windows 10 / 11 |
+| Tools | Excel, Jira / Bugzilla (for bug tracking), Selenium (for automation) |
+
+---
+
+## 8️⃣ Roles & Responsibilities
+| Role | Responsibility |
+|------|----------------|
+| Test Engineer (You) | Create and execute test cases, report bugs |
+| QA Lead | Review test plan and test cases |
+| Developer | Fix reported bugs |
+
+---
+
+## 9️⃣ Entry and Exit Criteria
+| Criteria | Description |
+|-----------|--------------|
+| **Entry** | Requirements finalized, test environment ready |
+| **Exit** | All major bugs fixed, test cases executed, RTM covered |
+
+---
+
+## 🔟 Risks & Mitigation
+| Risk | Mitigation |
+|------|-------------|
+| Application downtime | Use alternate test URL |
+| Browser compatibility issues | Test on multiple browsers |
+| Requirement change | Maintain version control for test cases |
+
+---
+
+## 1️⃣1️⃣ Test Schedule
+| Phase | Duration |
+|--------|-----------|
+| Test Planning | 1 Day |
+| Test Case Design | 2 Days |
+| Test Execution | 3 Days |
+| Bug Reporting | Continuous during execution |
+| Final Report | 1 Day |
+
+---
+
+## 1️⃣2️⃣ Approval
+| Role | Name | Signature |
+|------|------|------------|
+| QA Engineer | Sohel Patel | — |
+| QA Lead | — | — |
+| Project Manager | — | — |
+
+---
+
+**Prepared by:** Sohel Patel  
+**Role:** Test Engineer  
+**Date:** October 2025  
