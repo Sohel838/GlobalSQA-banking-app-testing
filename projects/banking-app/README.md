@@ -32,6 +32,19 @@ The goal of this project is to showcase the **complete Software Testing Life Cyc
 
 ---
 
+Manual Testing
+This folder contains all manual testing-related documents for the Banking Domain project.
+
+Test Plan
+Test Scenarios
+Test Cases
+Bug Report
+RTM (Requirement Traceability Matrix)
+Test Execution Report
+Daily Report
+
+--
+
 ## ⚙️ Tools & Technologies
 | Category | Tools |
 |-----------|--------|
